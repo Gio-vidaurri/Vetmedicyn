@@ -1,19 +1,12 @@
-:root {
-  --font-primary: "Fira Sans", sans-serif;
-  --font-size-base: 1.6rem;
-  --font-weight-normal: 400;
-  --font-weight-bold: 700;
-  --color-primary: #006a68;
-  --color-type: #002C2B; 
-  --color-bg-light: #6ec0bd;
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
 html {
   font-family: "Fira Sans", sans-serif;
+}
+.footer{ 
+background-color:#006A68;
+color: #fff;
 }
