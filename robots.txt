@@ -1,3 +1,8 @@
+User-agent: Googlebot
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /cgi-bin/
+
 User-agent: *
 Disallow: /admin/
 Disallow: /login/
@@ -5,5 +10,6 @@ Disallow: /private/
 Disallow: /tmp/
 Disallow: /cgi-bin/
 Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
 
 Sitemap: https://www.vetmedicyn.com/sitemap.xml
