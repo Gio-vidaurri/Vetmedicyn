@@ -1,5 +1,71 @@
-/* main.css */
-@import 'styles.css';
+/* Importar y normalizar estilos */
+@import "normalize.css";
 
-/* Normalizar estilos */
-@import 'normalize.css';
+/* Variables personalizadas */
+:root {
+    --primary-color: #002c2b;
+    --secondary-color: #006a68;
+    --white-color: #fff;
+
+    /* Sobrescribir variables de Bootstrap */
+    --bs-primary: var(--primary-color);
+    --bs-body-color: var(--primary-color);
+}
+
+/* Estilos base */
+body {
+    font-family: "Fira Sans", sans-serif;
+    color: var(--bs-body-color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estructura principal */
+main {
+    flex: 1 0 auto;
+}
+
+/* Header */
+.header {
+    background-color: var(--white-color);
+    /* Otros estilos para el header aquí */
+}
+
+/* Tipografía personalizada */
+h1,
+h2,
+h3 {
+    color: var(--bs-primary);
+}
+
+a {
+    text-decoration: none;
+}
+
+.no-underline {
+    text-decoration: none;
+  }
+  
+
+/* Enlaces de redes sociales */
+.social-links a {
+    margin-right: 0.5rem;
+}
+
+.social-links img {
+    width: 36px;
+    height: 36px;
+}
+
+/* Footer personalizado */
+.footer {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    /* Otros estilos para el footer aquí */
+}
+
+/* Personalizaciones adicionales */
+.custom-element {
+    /* Tus estilos personalizados aquí */
+}
