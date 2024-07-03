@@ -45,12 +45,11 @@ a {
 
 .no-underline {
     text-decoration: none;
-  }
-  
+}
 
 /* Enlaces de redes sociales */
 .social-links a {
-    margin-right: 0.5rem;
+    margin-right: 1rem;
 }
 
 .social-links img {
@@ -62,6 +61,7 @@ a {
 .footer {
     background-color: var(--secondary-color);
     color: var(--white-color);
+    flex-shrink: 0;
     /* Otros estilos para el footer aquí */
 }
 
