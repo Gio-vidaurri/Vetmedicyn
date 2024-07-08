@@ -1,9 +1,10 @@
-User-agent: Googlebot
-Disallow: /private/
-Disallow: /tmp/
-Disallow: /cgi-bin/
+# robots.txt para https://www.vetmedicyn.com
 
+# Reglas globales para todos los robots
 User-agent: *
+Allow: /
+
+# Directorios y archivos restringidos
 Disallow: /admin/
 Disallow: /login/
 Disallow: /private/
@@ -12,4 +13,32 @@ Disallow: /cgi-bin/
 Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php
 
+# Reglas específicas para Googlebot
+User-agent: Googlebot
+Allow: /
+
+# Reglas para otros bots específicos (ejemplos)
+User-agent: Bingbot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+# Tiempo de espera entre solicitudes
+Crawl-delay: 10
+
+# Sitemap
 Sitemap: https://www.vetmedicyn.com/sitemap.xml
+
+# Instrucciones adicionales
+# No indexar páginas de búsqueda o parámetros de URL específicos
+Disallow: /*?s=*
+Disallow: /*&s=*
+Disallow: /search/
+
+# Permitir el acceso a recursos estáticos
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.gif$

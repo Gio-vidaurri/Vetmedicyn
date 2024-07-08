@@ -10,10 +10,16 @@
     <title>Vetmedicyn - Tu asesora en salud y bienestar animal</title>
     <meta
       name="description"
-      content="¡Bienvenidos a Vetmedicyn! Soy Cynthia, médica veterinaria zootecnista comprometida con la salud y el bienestar de tus animales de compañía. Ofrezco servicios de consulta y asesoramiento veterinario personalizado. ¡Contáctame para comenzar! 🐶🐱 #SaludAnimal"
+      content="¡Bienvenidos a Vetmedicyn! Soy Cynthia, médica veterinaria zootecnista comprometida con la salud y el bienestar de tus animales de compañía. Ofrezco servicios de consulta y asesoramiento veterinario personalizado."
     />
 
-    <!-- Etiquetas meta para SEO -->
+    <!-- robots.txt -->
+    <link
+      rel="robots"
+      href="https://www.vetmedicyn.com/robots.txt"
+      type="text/plain"
+    />
+
     <meta name="robots" content="index, follow" />
 
     <meta
@@ -23,7 +29,7 @@
 
     <meta
       name="keywords"
-      content="veterinaria, veterinaria cerca de mi, hospital veterinario, clinica veterinaria, veterinaria 24 horas, zootecnia, veterinaria cerca de mi ubicación, veterinarias cerca, veterinario 24 horas cerca de mi, fmvz"
+      content="veterinaria, veterinaria cerca de mi, hospital veterinario, clinica veterinaria, veterinaria 24 horas, zootecnia, veterinaria cerca de mi ubicación, veterinarias cerca, veterinario 24 horas cerca de mi, mvz"
     />
 
     <!-- Etiqueta canonical para evitar contenido duplicado -->
@@ -47,7 +53,7 @@
     <!-- Etiqueta og:description para Open Graph -->
     <meta
       property="og:description"
-      content="¡Bienvenidos a Vetmedicyn! Soy Cynthia, médica veterinaria zootecnista comprometida con la salud y el bienestar de tus animales de compañía. Ofrezco servicios de consulta y asesoramiento veterinario personalizado. ¡Contáctame para comenzar! 🐶🐱 #SaludAnimal"
+      content="¡Bienvenidos a Vetmedicyn! Soy Cynthia, médica veterinaria zootecnista comprometida con la salud y el bienestar de tus animales de compañía. Ofrezco servicios de consulta y asesoramiento veterinario personalizado."
     />
 
     <!-- Etiqueta og:image para Open Graph -->
@@ -77,7 +83,7 @@
     <!-- Etiqueta twitter:description para Twitter Cards -->
     <meta
       name="twitter:description"
-      content="¡Bienvenidos a VetMedicyn! Soy Cynthia, médica veterinaria zootecnista comprometida con la salud y el bienestar de tus animales de compañía. Ofrezco servicios de consulta y asesoramiento veterinario personalizado. ¡Contáctame para comenzar! 🐶🐱 #SaludAnimal"
+      content="¡Bienvenidos a VetMedicyn! Soy Cynthia, médica veterinaria zootecnista comprometida con la salud y el bienestar de tus animales de compañía. Ofrezco servicios de consulta y asesoramiento veterinario personalizado."
     />
 
     <!-- Etiqueta twitter:image para Twitter Cards -->
@@ -89,11 +95,11 @@
     <!-- Favicon -->
     <link
       rel="icon"
-      href="../assets/favicon/Favicon_V3.svg"
+      href="https://www.vetmedicyn.com/assets/favicon/Favicon_V3.svg"
       type="image/svg+xml"
       sizes="any"
     />
-    <link rel="apple-touch-icon" href="../assets/favicon/Favicon_V3.svg" />
+    <link rel="apple-touch-icon" href="https://www.vetmedicyn.com/assets/favicon/Favicon_V3.svg" />
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -114,26 +120,42 @@
       crossorigin="anonymous"
     />
 
-    <!-- JSON-LD -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "VeterinaryCare",
         "name": "Vetmedicyn",
-        "url": "https://vetmedicyn.com/",
-        "logo": "../assets/icons/Vetmedicyn logo 2.svg",
-        "description": "🩺 Médica Veterinaria Zootecnista | UNAM\n🐶🐱 Medicina en perros y gatos\n👩‍⚕️ Consultas | Servicio a domicilio 📍Estado de México\n\nComo médica veterinaria zootecnista, me dedico en el cuidado integral de los animales. Mi trabajo abarca la prevención y el diagnóstico de enfermedades, me enfoco en garantizar el bienestar y la salud de los animales, así como en contribuir a la salud pública, siempre buscando el equilibrio entre la salud de los animales y las necesidades de las personas que dependen de ellos.",
+        "alternateName": "Clínica Veterinaria Vetmedicyn",
+        "url": "https://www.vetmedicyn.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.vetmedicyn.com/assets/icons/Vetmedicyn-logo-2.svg",
+          "width": "300",
+          "height": "150"
+        },
+        "image": [
+          "https://www.vetmedicyn.com/assets/icons/Vetmedicyn-logo-2.svg"
+        ],
+        "description": "🩺 Médica Veterinaria Zootecnista | UNAM\n🐶🐱 Medicina en perros y gatos\n👩‍⚕️ Consultas | Servicio a domicilio 📍Estado de México\n\nComo médica veterinaria zootecnista, me dedico al cuidado integral de los animales. Mi trabajo abarca la prevención y el diagnóstico de enfermedades, me enfoco en garantizar el bienestar y la salud de los animales, así como en contribuir a la salud pública, siempre buscando el equilibrio entre la salud de los animales y las necesidades de las personas que dependen de ellos.",
+        "slogan": "Cuidado integral y profesional para tu animal de compañía",
         "openingDate": "2024-03-28",
+        "priceRange": "$$",
+        "currenciesAccepted": "MXN",
+        "paymentAccepted": ["cash", "credit card", "debit card"],
         "contactPoint": {
           "@type": "ContactPoint",
           "telephone": "+52-55-4390-5449",
-          "contactType": "customer service"
+          "contactType": "customer service",
+          "areaServed": "Estado de México",
+          "availableLanguage": ["Spanish", "English"]
         },
         "address": {
           "@type": "PostalAddress",
+          "streetAddress": "Paseo del Ángel",
           "addressLocality": "Ojo de Agua",
-          "addressRegion": "State of Mexico",
-          "addressCountry": "Mexico"
+          "addressRegion": "Estado de México",
+          "postalCode": "55770",
+          "addressCountry": "MX"
         },
         "geo": {
           "@type": "GeoCoordinates",
@@ -147,37 +169,14 @@
         "openingHoursSpecification": [
           {
             "@type": "OpeningHoursSpecification",
-            "dayOfWeek": "Monday",
-            "opens": "10:00",
-            "closes": "18:00"
-          },
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": "Tuesday",
-            "opens": "10:00",
-            "closes": "18:00"
-          },
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": "Wednesday",
-            "opens": "10:00",
-            "closes": "18:00"
-          },
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": "Thursday",
-            "opens": "10:00",
-            "closes": "18:00"
-          },
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": "Friday",
-            "opens": "10:00",
-            "closes": "18:00"
-          },
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": "Saturday",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday"
+            ],
             "opens": "10:00",
             "closes": "18:00"
           }
@@ -185,9 +184,58 @@
         "sameAs": [
           "https://www.instagram.com/vetmedicyn/",
           "https://www.tiktok.com/@vetmedicyn",
-          "https://www.facebook.com/profile.php?id=61557646812395&locale=es_LA",
-          "https://wa.me/5543905449/?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios.%20%BFPodr%C3%ADas%20darme%20m%C3%A1s%20informaci%C3%B3n%3F"
-        ]
+          "https://www.facebook.com/profile.php?id=61557646812395",
+          "https://wa.me/5543905449"
+        ],
+        "offers": {
+          "@type": "Offer",
+          "description": "Consulta veterinaria general",
+          "price": "550",
+          "priceCurrency": "MXN"
+        },
+        "service": [
+          {
+            "@type": "Service",
+            "name": "Consulta veterinaria general",
+            "description": "Examen físico general para perros y gatos"
+          },
+          {
+            "@type": "Service",
+            "name": "Vacunación",
+            "description": "Esquemas de vacunación para perros y gatos"
+          },
+          {
+            "@type": "Service",
+            "name": "Cirugía",
+            "description": "Procedimientos quirúrgicos para animales de compañía"
+          },
+          {
+            "@type": "Service",
+            "name": "Servicio a domicilio",
+            "description": "Atención veterinaria en la comodidad de tu hogar"
+          }
+        ],
+        "employee": {
+          "@type": "Person",
+          "name": "Dra. Cynthia Flores Meléndez",
+          "jobTitle": "Médica Veterinaria Zootecnista",
+          "image": "https://www.vetmedicyn.com/assets/images/dra-cynthia.jpg",
+          "description": "Egresada de la UNAM, especialista en medicina y cirugía de pequeñas especies",
+          "sameAs": ["https://www.facebook.com/profile.php?id=61557646812395"]
+        },
+        "review": {
+          "@type": "Review",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "María Rodríguez"
+          },
+          "reviewBody": "Excelente atención y profesionalismo. La Dra. Cynthia es muy cariñosa con los animales y explica todo detalladamente."
+        }
       }
     </script>
 
@@ -250,10 +298,11 @@
     <!-- End Meta Pixel Code -->
   </head>
 
-<!-- Primary Page Layout
+  <!-- Primary Page Layout
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
   <body class="d-flex flex-column h-100">
+    
     <!-- Google Tag Manager (noscript) -->
     <noscript>
       <iframe
@@ -265,7 +314,7 @@
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <header class="header py-3">
+    <header class="header py-4">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 col-md-8 col-lg-6 text-center">
@@ -283,7 +332,7 @@
     </header>
 
     <main class="flex-shrink-0">
-      <div class="container my-">
+      <div class="container my-4">
         <div class="row justify-content-center text-center">
           <div class="col-12 col-md-10 col-lg-8">
             <h1 class="fw-bold">Próximamente</h1>
@@ -306,7 +355,7 @@
               class="me-2"
             >
               <img
-                src="../assets/icons/Tiktok.svg"
+                src="https://www.vetmedicyn.com/assets/icons/Tiktok.svg"
                 alt="TikTok"
                 width="36"
                 height="36"
@@ -319,7 +368,7 @@
               class="me-2"
             >
               <img
-                src="../assets/icons/IG.svg"
+                src="https://www.vetmedicyn.com/assets/icons/IG.svg"
                 alt="Instagram"
                 width="36"
                 height="36"
@@ -332,7 +381,7 @@
               class="me-2"
             >
               <img
-                src="../assets/icons/Facebook.svg"
+                src="https://www.vetmedicyn.com/assets/icons/Facebook.svg"
                 alt="Facebook"
                 width="36"
                 height="36"
@@ -344,7 +393,7 @@
               rel="noopener noreferrer"
             >
               <img
-                src="../assets/icons/Whats.svg"
+                src="https://www.vetmedicyn.com/assets/icons/Whats.svg"
                 alt="WhatsApp"
                 width="36"
                 height="36"
@@ -357,9 +406,9 @@
       <div class="container-fluid px-0">
         <div class="row g-0">
           <div class="col-12">
-            <figure class="m-0">
+            <figure class="mt-auto">
               <img
-                src="../assets/images/Arte_principal.jpg"
+                src="https://www.vetmedicyn.com/assets/images/Arte_principal.jpg"
                 alt="Perro con computadora trabajando en el desarrollo del sitio web de Vetmedicyn.com"
                 class="img-fluid w-100"
               />
@@ -381,8 +430,8 @@
         </div>
       </div>
     </footer>
-    
-<!-- End Document
+
+    <!-- End Document
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <!-- Popper JS - Bootstrap -->
     <script

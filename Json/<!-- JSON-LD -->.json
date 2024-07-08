@@ -1,0 +1,201 @@
+<!-- JSON-LD -->
+    <script type="application/ld+json">
+      {
+    "@context": "https://schema.org",
+    "@type": "VeterinaryCare",
+    "name": "Vetmedicyn",
+    "url": "https://vetmedicyn.com/",
+    "logo": "../assets/icons/Vetmedicyn logo 2.svg",
+    "description": "🩺 Médica Veterinaria Zootecnista | UNAM\n🐶🐱 Medicina en perros y gatos\n👩‍⚕️ Consultas | Servicio a domicilio 📍Estado de México\n\nComo médica veterinaria zootecnista, me dedico en el cuidado integral de los animales. Mi trabajo abarca la prevención y el diagnóstico de enfermedades, me enfoco en garantizar el bienestar y la salud de los animales, así como en contribuir a la salud pública, siempre buscando el equilibrio entre la salud de los animales y las necesidades de las personas que dependen de ellos.",
+    "openingDate": "2024-03-28",
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+52-55-4390-5449",
+        "contactType": "customer service"
+    },
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Ojo de Agua",
+        "addressRegion": "State of Mexico",
+        "addressCountry": "Mexico"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "20.6574",
+        "longitude": "-100.3725"
+    },
+    "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Estado de México, Mexico"
+    },
+    "openingHoursSpecification": [
+        {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Monday",
+            "opens": "10:00",
+            "closes": "18:00"
+        },
+        {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Tuesday",
+            "opens": "10:00",
+            "closes": "18:00"
+        },
+        {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Wednesday",
+            "opens": "10:00",
+            "closes": "18:00"
+        },
+        {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Thursday",
+            "opens": "10:00",
+            "closes": "18:00"
+        },
+        {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Friday",
+            "opens": "10:00",
+            "closes": "18:00"
+        },
+        {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "10:00",
+            "closes": "18:00"
+        }
+    ],
+    "sameAs": [
+        "https://www.instagram.com/vetmedicyn/",
+        "https://www.tiktok.com/@vetmedicyn",
+        "https://www.facebook.com/profile.php?id=61557646812395&locale=es_LA",
+        "https://wa.me/5543905449/?text=Hola%2C%20estoy%20interesado%20en%20tus%20servicios.%20%BFPodr%C3%ADas%20darme%20m%C3%A1s%20informaci%C3%B3n%3F"
+    ]
+},
+{
+    "@context": "https://schema.org",
+    "@type": "VeterinaryCare",
+    "name": "Vetmedicyn",
+    "alternateName": "Clínica Veterinaria Vetmedicyn",
+    "url": "https://www.vetmedicyn.com/",
+    "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.vetmedicyn.com/assets/icons/Vetmedicyn-logo-2.svg",
+        "width": "300",
+        "height": "150"
+    },
+    "image": [
+        "https://www.vetmedicyn.com/assets/icons/Vetmedicyn-logo-2"
+    ],
+    "description": "Vetmedicyn | Dra. Cynthia Flores Meléndez, Médica Veterinaria Zootecnista de la UNAM. Ofrece servicios de medicina preventiva, diagnóstico y tratamiento para perros y gatos, con un enfoque en el bienestar animal y la salud pública.",
+    "slogan": "Cuidado integral y profesional para tu animal de compañía",
+    "openingDate": "2024-03-28",
+    "priceRange": "$$",
+    "currenciesAccepted": "MXN",
+    "paymentAccepted": [
+        "cash",
+        "credit card",
+        "debit card"
+    ],
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+52-55-4390-5449",
+        "contactType": "customer service",
+        "areaServed": "Estado de México",
+        "availableLanguage": [
+            "Spanish",
+            "English"
+        ]
+    },
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Ojo de Agua",
+        "addressLocality": "Ojo de Agua",
+        "addressRegion": "Estado de México",
+        "postalCode": "55770",
+        "addressCountry": "MX"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "20.6574",
+        "longitude": "-100.3725"
+    },
+    "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Estado de México, Mexico"
+    },
+    "openingHoursSpecification": [
+        {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday"
+            ],
+            "opens": "10:00",
+            "closes": "18:00"
+        }
+    ],
+    "sameAs": [
+        "https://www.instagram.com/vetmedicyn/",
+        "https://www.tiktok.com/@vetmedicyn",
+        "https://www.facebook.com/profile.php?id=61557646812395",
+        "https://wa.me/5543905449"
+    ],
+    "offers": {
+        "@type": "Offer",
+        "description": "Consulta veterinaria general",
+        "price": "550",
+        "priceCurrency": "MXN"
+    },
+    "service": [
+        {
+            "@type": "Service",
+            "name": "Consulta veterinaria general",
+            "description": "Examen físico general para perros y gatos"
+        },
+        {
+            "@type": "Service",
+            "name": "Vacunación",
+            "description": "Esquemas de vacunación para perros y gatos"
+        },
+        {
+            "@type": "Service",
+            "name": "Cirugía",
+            "description": "Procedimientos quirúrgicos para animales de compañia"
+        },
+        {
+            "@type": "Service",
+            "name": "Servicio a domicilio",
+            "description": "Atención veterinaria en la comodidad de tu hogar"
+        }
+    ],
+    "employee": {
+        "@type": "Person",
+        "name": "Dra. Cynthia Flores Meléndez",
+        "jobTitle": "Médica Veterinaria Zootecnista",
+        "image": "https://www.vetmedicyn.com/assets/images/dra-cynthia.jpg",
+        "description": "Egresada de la UNAM, especialista en medicina y cirugía de pequeñas especies",
+        "sameAs": [
+            "https://www.facebook.com/profile.php?id=61557646812395"
+        ]
+    },
+    "review": {
+        "@type": "Review",
+        "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+        },
+        "author": {
+            "@type": "Person",
+            "name": "María Rodríguez"
+        },
+        "reviewBody": "Excelente atención y profesionalismo. La Dra. Cynthia es muy cariñosa con los animales y explica todo detalladamente."
+    }
+}
+    </script>
