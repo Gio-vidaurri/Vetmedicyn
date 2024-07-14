@@ -99,7 +99,10 @@
       type="image/svg+xml"
       sizes="any"
     />
-    <link rel="apple-touch-icon" href="https://www.vetmedicyn.com/assets/favicon/Favicon_V3.svg" />
+    <link
+      rel="apple-touch-icon"
+      href="https://www.vetmedicyn.com/assets/favicon/Favicon_V3.svg"
+    />
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -110,7 +113,7 @@
     />
 
     <!-- CSS -->
-    <link href="../css/main.css" rel="stylesheet" />
+    <link href="https://www.vetmedicyn.com/css/main.css" rel="stylesheet" />
 
     <!-- Bootstrap 5.3 -->
     <link
@@ -120,6 +123,7 @@
       crossorigin="anonymous"
     />
 
+    <!-- JSON     -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -232,7 +236,7 @@
           },
           "author": {
             "@type": "Person",
-            "name": "María Rodríguez"
+            "name": "Giovanni Vidaurri"
           },
           "reviewBody": "Excelente atención y profesionalismo. La Dra. Cynthia es muy cariñosa con los animales y explica todo detalladamente."
         }
@@ -302,7 +306,6 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
   <body class="d-flex flex-column h-100">
-    
     <!-- Google Tag Manager (noscript) -->
     <noscript>
       <iframe
@@ -406,11 +409,16 @@
       <div class="container-fluid px-0">
         <div class="row g-0">
           <div class="col-12">
-            <figure class="mt-auto">
+            <figure class="image-container mt-auto">
               <img
-                src="https://www.vetmedicyn.com/assets/images/Arte_principal.jpg"
+                src="https://www.vetmedicyn.com/assets/images/Arte_principal-1x.jpg"
+                srcset="
+                  https://www.vetmedicyn.com/assets/images/Arte_principal-1x.jpg 1x,
+                  https://www.vetmedicyn.com/assets/images/Arte_principal-2x.jpg 2x,
+                  https://www.vetmedicyn.com/assets/images/Arte_principal-3x.jpg 3x
+                "
                 alt="Perro con computadora trabajando en el desarrollo del sitio web de Vetmedicyn.com"
-                class="img-fluid w-100"
+                class="img-fluid h-100 w-100 dog-image"
               />
             </figure>
           </div>
