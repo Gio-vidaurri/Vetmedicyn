@@ -46,7 +46,7 @@ Vetmedicyn is a comprehensive web platform I designed and developed for a veteri
 ## Let's Connect
 I'm always open to discussing new projects or opportunities in product design and web development.
 
-[LinkedIn](https://www.linkedin.com/in/giovidaurri/) | [Portfolio](https://www.giovidaurri.com/) | [GitHub](https://github.com/giovidaurri)
+[LinkedIn](https://www.linkedin.com/in/giovidaurri/) | [Portfolio](https://www.giovidaurri.com/)
 
 ---
-⭐️ From [giovidaurri](https://github.com/giovidaurri)
+⭐️ From [giovidaurri](https://github.com/Gio-vidaurri)
